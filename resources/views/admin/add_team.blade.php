@@ -20,7 +20,7 @@
         @include('admin.navbar')
 
 
-            <div class="cd-flex justify-content-center"  style="padding-top:100px; padding-left:750px">
+            <div class="d-flex justify-content-center"  style="padding-top:100px;">
                 @if (session()->has('message'))
                     <div class="alert alert-success">
                         <button type="button" class="close" data-dismiss="alert">x</button>
